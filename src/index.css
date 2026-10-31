@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-poppins: 'Poppins', sans-serif;
+    --brand-dark-base: #091a18;
+    --brand-dark-card: #0f2b27;
+    --brand-dark-surface: #143732;
+    --brand-dark-border: rgba(216, 190, 154, 0.22);
+    --brand-gold-primary: #d8be9a;
+    --brand-gold-hover: #c4a274;
+    --brand-cream-text: #fbf8f3;
+    --brand-cream-muted: #d0c5b4;
+  }
+
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #091a18;
+    color: #fbf8f3;
+  }
+
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Custom sleek scrollbar for fintech dashboards */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #091a18;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e4540;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d8be9a;
+}
+
